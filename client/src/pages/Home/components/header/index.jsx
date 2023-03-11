@@ -1,26 +1,37 @@
-import React from 'react'
-import Student from '../../assets/Student.svg'
+import React from 'react';
+import Shopping from "../assets/shoes.webp";
+import Anelka from "../assets/Anelka.jpg";
+
 function Header() {
   return (
-    <div className='flex flex-row justify-between'>
-        <aside className='flex flex-col'>
-            <div className='bg-white w-80 h-60 mt-32 ml-10 p-5 rounded-lg text-gray-700 text-base mb-4 shadow-xl'>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptatem, sequi, harum dicta hic atque maiores labore reiciendis animi libero voluptate. Sunt ullam quisquam praesentium asperiores nostrum aspernatur, iusto tempore!</p>
-            </div>
-            <div className='bg-white w-80 h-40 mt-2 ml-10 p-5 rounded-lg text-gray-700 text-base mb-4 shadow-xl'>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptatem, sequi, harum dicta hic atque maiores labore </p>
+    <div className=''>
+    <div className='ml-[443px]  bg-secondary h-screen w-[978.5px]  flex flex-row '>
 <div className='flex flex-col'>
-    <div className='bg-[#8500ff] w-40 h-3 rounded-lg'></div>
-    <div className='bg-gray-500 w-20 h-3 rounded-lg mt-1'></div>
+<div className='bg-primary w-96 py-5 px-4 ml-12 shadow-xl rounded-lg '>
+<div className='flex flex-row'>
+<p className='font-bold text-three'>Products:</p>
+<p className='bg-three w-40 rounded-lg h-3 mt-1 ml-4'></p>
 </div>
-            </div>
-        </aside>
-        <aside>
-         <div>
-         <img src={Student} alt="Photo"  className='w-auto h-auto'/>
-        </div>
-        </aside>
+<div className='flex flex-row'>
+<p className='font-bold text-three'>Sales:</p>
+<p className='bg-secondary w-32 rounded-lg h-3 mt-1 ml-11'></p>
+</div>
+      </div>
+      <div className='flex flex-row bg-primary w-96 p-4 rounded-lg shadow-xl ml-12  mt-4'>
+<div className='w-36 h-full'>
+  <img src={Anelka} alt="anelka" className='object-cover rounded-xl w-36 shadow-xl' />
+</div>
+<div className='pl-5'>
+  <p className='font-bold'>riores inventore ullam libero temporibus nisi voluptatem in culpa. Similique excepturi quo ex amet.</p>
+</div>
+      </div>
+</div>
+<div className='mt-40'>
+<img src={Shopping} alt="shopping" className=' h-96  bg-cover  h-full ' />
+</div>
     </div>
+    </div>
+    
   )
 }
 
