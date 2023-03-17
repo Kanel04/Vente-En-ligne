@@ -17,7 +17,7 @@ function Navbar() {
 </div>
 <div className=' lg:py-6 lg:pl-80  bg-secondary w-full '>
 <LinkButton page="/login" >Sign in</LinkButton>
-<LinkButton page="/" className="bg-primary py-3 px-6 rounded-lg shadow-xl ml-2">Sign up</LinkButton>
+<LinkButton page="/register" className="bg-primary py-3 px-6 rounded-lg shadow-xl ml-2">Sign up</LinkButton>
      </div>
         </nav>
     </div>

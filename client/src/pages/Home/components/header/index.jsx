@@ -27,7 +27,7 @@ function Header() {
       </div>
 </div>
 <div className='mt-40'>
-<img src={Shopping} alt="shopping" className=' h-96  bg-cover  h-full ' />
+<img src={Shopping} alt="shopping" className=' w-[500px]  bg-cover  h-96 ' />
 </div>
     </div>
     </div>
