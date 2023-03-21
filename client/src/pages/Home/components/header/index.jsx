@@ -1,11 +1,14 @@
 import React from 'react';
 import Shopping from "../assets/shoes.webp";
 import Anelka from "../assets/Anelka.jpg";
-
+import Shop from '../assets/Shop.png'
 function Header() {
   return (
-    <div className=''>
-    <div className='ml-[443px]  bg-secondary h-screen w-[978.5px]  flex flex-row '>
+    <div className='flex flex-row'>
+      <div className='bg-secondary p-5 w-96 h-96 rounded-full ml-4'>
+<img src={Shop} alt="shopping girl" className="w-[443px] h-[443px]"/>
+      </div>
+    <div className='ml-[44px]  bg-secondary h-screen w-[978.5px]  flex flex-row '>
 <div className='flex flex-col'>
 <div className='bg-primary w-96 py-5 px-4 ml-12 shadow-xl rounded-lg '>
 <div className='flex flex-row'>

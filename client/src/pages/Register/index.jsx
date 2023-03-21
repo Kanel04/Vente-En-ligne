@@ -4,13 +4,11 @@ import Register from "./assets/register.jpg"
 function RegisterPage() {
   return (
     <div className=''>
-      <div className='flex justify-center p-40'>
+      <div className='flex justify-center bg-secondary h-screen p-28 '>
        
     <div className='flex flex-row  '>
-       <div>
-           <img src={Register} alt="shop" className='h-full w-96 shadow-xl rounded-l-xl '  />
-       </div>
-       <div className='flex flex-col bg-secondary  w-96 p-6 rounded-r-xl shadow-xl '>
+       
+       <div className='flex flex-col bg-five h-[530px]  w-96 p-6 rounded-xl shadow-xl '>
            <h1 className='text-primary text-3xl font-bold text-center mt-9'>Sign up</h1>
     <div className='mt-4'>
     <Input type="text" placeholder="Your username" ></Input>
